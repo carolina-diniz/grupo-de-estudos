@@ -3,6 +3,7 @@ public class stringToMinutes {
   public int transformToTime(String rawInput) {
     rawInput = rawInput.toLowerCase().trim();
 
+
     if (rawInput.contains(":")) {
       String[] time = rawInput.split(":");
       int hours = convertToInteger(time[0]);

@@ -48,7 +48,6 @@ public class desafio01 {
         symbolMap.put('o', '0');
         symbolMap.put('s', '$');
         symbolMap.put('t', '7');
-        symbolMap.put('a', '@');
 
         StringBuilder passwordModified = new StringBuilder();
 
